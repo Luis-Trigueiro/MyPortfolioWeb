@@ -1,0 +1,183 @@
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: -10px;
+  position: fixed;
+  width: 100%;
+  top: 10px;
+  bottom: 896px;
+}
+@media only screen and (max-width: 600px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+  }
+}
+ul {
+  list-style: none;
+  padding-right: 60px;
+}
+li {
+  display: inline-block;
+}
+nav li a {
+  color: hsl(0, 50%, 95%);
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 18pt;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .link {
+    width: auto;
+    margin: 10px;
+    font-size: 12pt;
+  }
+}
+
+nav li a:hover {
+  background-color: hsl(210, 20%, 50%);
+  text-decoration: none;
+  height: auto;
+}
+
+#welcome-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: #3e3f4f;
+  background: url(img/WhatsApp\ Image\ 2021-01-18\ at\ 16.03.31.jpeg);
+}
+
+#welcome-section h1 {
+  color: white;
+  padding-top: 400px;
+  margin: 0 auto;
+}
+
+#about {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: url(img/BG.png);
+  text-align: center;
+}
+@media only screen and (max-width: 1900px) {
+  #about {
+    height: auto;
+    display: block;
+  }
+}
+
+#profilePhoto {
+  padding-left: 05%;
+  padding-top: 10%;
+  width: 100%;
+  height: auto;
+}
+
+#profilePhoto img {
+  width: 100%;
+  height: auto;
+}
+
+#text {
+  text-align: justify;
+  color: white;
+  font-size: 20pt;
+  width: auto;
+  height: auto;
+  padding: 10%;
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1900px) {
+  #text {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #text {
+    font-size: 12pt;
+    text-align: center;
+  }
+}
+
+#about div p {
+  padding: 10px;
+}
+
+#projects {
+  background-color: hsl(210, 100%, 2%);
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+}
+
+.project-tile {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  grid-gap: 50px 50px;
+  justify-content: center;
+  padding-top: 05%;
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .project-tile {
+    display: block;
+    padding-left: 5%;
+  }
+}
+
+.portifolio {
+  color: white;
+}
+
+.project-tile a:hover {
+  color: hsl(210, 20%, 50%);
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  border: solid white;
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 250px;
+    height: 250px;
+  }
+}
+#contact {
+  background: url(img/BG.png);
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 15pt;
+  padding: 40px;
+  text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+  #contact {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+#contact a {
+  color: aliceblue;
+  width: 100%;
+  height: auto;
+}
